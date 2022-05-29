@@ -1,0 +1,15 @@
+parameterFile="parameters.txt"
+configurationsFile="init_config.txt"
+trainInstancesFile="instances.txt"
+testInstancesFile="tests.txt"
+targetRunner="runner.py"
+logFile="irace.Rdata"
+maxExperiments= 1000
+nbConfigurations= 0
+digits= 3
+execDir="."
+testIterationElites= 1
+testNbElites= 1
+nbIterations = 0
+nbExperimentsPerIteration= 0
+firstTest= 10

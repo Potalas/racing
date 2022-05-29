@@ -1,0 +1,7 @@
+# name	switch	type	values	[condition]
+prob_0	"prob_0="	r	(0,1)	
+prob_1	"prob_1="	r	(0,1)	
+prob_2	"prob_2="	r	(0,1)	
+prob_3	"prob_3="	r	(0,1)	
+prob_4	"prob_4="	r	(0,1)	
+prob_5	"prob_5="	r	(0,1)	

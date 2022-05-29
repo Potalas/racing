@@ -1,0 +1,10 @@
+name;type;value;argument;probability
+instance_file;path;W-model_instances.csv;;
+GenContinue;continuator;2000;;
+ratioNbGenFitness;criterion;;;
+PlusReplacement;replacement;;;1.0
+problem;parameter;0;;
+FitContinue;continuator;10;;
+offspring_size;parameter;1;;
+seed;parameter;1307152492;;
+BucketBitMutation;mutation;;1:1,2:2,3:3,4:4,5:5,6:10|0.322,0.107,0.266,0.786,0.708,0.773;1.0
