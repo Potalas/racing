@@ -6,5 +6,5 @@ PlusReplacement;replacement;;;1.0
 problem;parameter;0;;
 FitContinue;continuator;10;;
 offspring_size;parameter;1;;
-seed;parameter;810918182;;
-BucketBitMutation;mutation;;1:1,2:2,3:3,4:4,5:5,6:10|0.01,0.033,0.074,0.295,0.395,0.193;1.0
+seed;parameter;837070675;;
+BucketBitMutation;mutation;;1:1,2:2,3:3,4:4,5:5,6:10|0.128,0.067,0.066,0.137,0.098,0.504;1.0
