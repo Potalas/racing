@@ -1,6 +1,8 @@
 parameterFile="parameters.txt"
 configurationsFile="init_config.txt"
+trainInstancesDir=""
 trainInstancesFile="instances.txt"
+testInstancesDir=""
 testInstancesFile="tests.txt"
 targetRunner="runner.py"
 logFile="irace.Rdata"
@@ -10,12 +12,13 @@ digits= 3
 execDir="."
 testIterationElites= 1
 testNbElites= 1
-nbIterations = 0
-nbExperimentsPerIteration= 0
-firstTest= 10
-repairConfiguration= function (configuration, parameters, digits)
+# nbIterations = 0
+# nbExperimentsPerIteration= 0
+firstTest=10
+repairConfiguration= function(configuration, parameters, digits)
 {
   isreal <- parameters$type[colnames(configuration)] %in% "r"
   configuration[isreal] <- round(configuration[isreal] / sum(configuration[isreal]), digits = 3)
   return(configuration)
-} 
+}
+
