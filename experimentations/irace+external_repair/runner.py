@@ -48,6 +48,9 @@ dfconfig = pd.read_csv(config_file, sep=";")
 # update the seed in the config dataframe
 dfconfig.loc[dfconfig["name"] == "seed", "value"] = seed
 
+# update the instance (problem for IOH) in the config dataframe
+dfconfig.loc[dfconfig["name"] == "problem", "value"] = instance_id
+
 # convert the arguments from irace into a string
 cl_probs = sys.argv[5:]
 
